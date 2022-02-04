@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider for generation Windows</title>
+    <link rel="shortcut icon" href="img/7.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h2>Slider for generation Windows</h2>
+
+<main>
+    <a class="prev" onclick="changeSlide('prev')">&#10094;</a>
+    <a class="next" onclick="changeSlide('next')">&#10095;</a>
+</main>
+
+<div class="items">
+    <img src ="img/1.jpeg" onclick="setStyle(1, this)" class="item">
+    <img src ="img/2.jpeg" onclick="setStyle(2, this)" class="item">
+    <img src ="img/3.jpg" onclick="setStyle(3, this)" class="item">
+    <img src ="img/4.jpg" onclick="setStyle(4, this)" class="item">
+    <img src ="img/5.png" onclick="setStyle(5, this)" class="item">
+    <img src ="img/6.jpg" onclick="setStyle(6, this)" class="item">
+    <img src ="img/7.jpg" onclick="setStyle(7, this)" class="item">
+</div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
